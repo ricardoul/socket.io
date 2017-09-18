@@ -52,6 +52,7 @@ Any serializable data structures can be emitted, including:
 
 Sample code:
 
+
 ```js
 io.on('connection', function(socket){
   socket.emit('request', /* */); // emit an event to the socket
